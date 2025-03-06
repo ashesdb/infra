@@ -17,3 +17,13 @@ variable "GITHUB_TOKEN" {
   description = "GitHub token"
   type        = string
 }
+
+variable "SPACES_ACCESS_KEY" {
+  description = "Access key for DigitalOcean Spaces"
+  type        = string
+}
+
+variable "SPACES_SECRET_KEY" {
+  description = "Secret key for DigitalOcean Spaces"
+  type        = string
+}
